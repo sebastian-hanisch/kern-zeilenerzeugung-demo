@@ -1,7 +1,6 @@
 # Kern bei 30 Spielern: Bedingungen gezielt suchen – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-kern-zeilenerzeugung-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-kern-zeilenerzeugung-demo.streamlit.app/)**
 
 Teil der [Linie Koalitionen und Teilen](https://sebastianhanisch.net/konzepte-koalitionen-teilen.html). Die Kante zu [`kern-demo`](https://sebastianhanisch-kern-demo.streamlit.app/) ist eine Fortsetzung über deren Grenze: `kern-demo` schreibt alle 2ⁿ − 2 Koalitionsbedingungen bis n = 10 auf, hier reichen im Gewichtsspiel wenige hundert Zeilen für n bis 100; im Standortspiel waren es bei n = 40 im Mittel 5749 Zeilen (4 Seeds), noch weit unter 2^40. Verwandt: [`shapley-demo`](https://sebastianhanisch-shapley-demo.streamlit.app/) (dort Stichproben für den Shapley-Wert, nicht für Kernbedingungen) und `machtindex-demo` (dieselbe Linie) für Machtindizes im Gewichtsspiel. Alle Stimmgewichte, Quoten, Koalitionswerte und Kosten sind Modellannahmen, keine Aussage über reale Gremien oder Betriebe.
 
